@@ -45,4 +45,4 @@ Este projeto implementa um sistema de controle de LEDs e uma matriz de LEDs WS28
 - O uso de interrupções garante uma resposta rápida e eficiente aos botões.
 
 ---- Demonstração do Projeto
-🎥 Vídeo do Projeto: [link]
+🎥 Vídeo do Projeto: [https://youtube.com/shorts/tDVmbcrBulU?si=BV_Om_p0s-wlAjkV]
