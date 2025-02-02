@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build\controlador_rp2040.hex'
+elf = 'build\controlador_rp2040.uf2'
