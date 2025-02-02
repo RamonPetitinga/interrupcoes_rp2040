@@ -17,9 +17,9 @@ static volatile bool controle = false;  // Controle para o WS2812.
 #define green_button 5 // Define o pino do botão verde.
 #define red_button 6   // Define o pino do botão vermelho.
 
-#define red_rgb 11   // Define o pino vermelho do LED.
+#define red_rgb 13   // Define o pino vermelho do LED.
 #define green_rgb 12 // Define o pino verde do LED.
-#define blue_rgb 13  // Define o pino azul do LED.
+#define blue_rgb 11  // Define o pino azul do LED.
 
 // Definição do número de LEDs e pino.
 #define LED_COUNT 25
@@ -28,7 +28,7 @@ static volatile bool controle = false;  // Controle para o WS2812.
 // Definição de pixel GRB
 struct pixel_t
 {
-    uint8_t R, G, B; // Três valores de 8-bits compõem um pixel.
+    uint8_t G, R, B; // Três valores de 8-bits compõem um pixel.
 };
 typedef struct pixel_t pixel_t;
 typedef pixel_t npLED_t; // Mudança de nome de "struct pixel_t" para "npLED_t" por clareza.
