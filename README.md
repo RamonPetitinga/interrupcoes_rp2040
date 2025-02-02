@@ -12,11 +12,11 @@ Este projeto implementa um sistema de controle de LEDs e uma matriz de LEDs WS28
 
 ---- Tecnologias Utilizadas
 
-- C/C++
+- C
 - Pico SDK
 - Interrupções (IRQ)
 - GPIO (RP2040)
-- WS2812 (LEDs endereçáveis)
+- WS2812 (LEDS)
 
 ---- Objetivos
 
@@ -35,14 +35,13 @@ Este projeto implementa um sistema de controle de LEDs e uma matriz de LEDs WS28
 
 ---- Funcionalidades Detalhadas
 
-1. Piscar o LED vermelho a uma frequência de 5Hz.
+1. Piscar o LED vermelho.
 2. Botão A: Incrementa o número exibido na matriz.
 3. Botão B: Decrementa o número exibido na matriz.
 4. Matriz WS2812: Exibe os números de 0 a 9.
 
 ---- Extras
 
-- Quando o contador atinge 9, os números na matriz são exibidos com cores aleatórias.
 - O uso de interrupções garante uma resposta rápida e eficiente aos botões.
 
 ---- Demonstração do Projeto
