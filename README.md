@@ -1,5 +1,8 @@
 ---- Projeto: Controle de LEDs e Matriz 5x5 com RP2040 ----
 
+---- Demonstração do Projeto
+🎥 Vídeo do Projeto: [https://youtube.com/shorts/tDVmbcrBulU?si=BV_Om_p0s-wlAjkV]
+
 Descrição do Projeto
 Este projeto implementa um sistema de controle de LEDs e uma matriz de LEDs WS2812 utilizando a placa BitDogLab com RP2040. O sistema emprega interrupções, debouncing via software e exibição de números de 0 a 9 na matriz de LEDs.
 
@@ -43,6 +46,3 @@ Este projeto implementa um sistema de controle de LEDs e uma matriz de LEDs WS28
 ---- Extras
 
 - O uso de interrupções garante uma resposta rápida e eficiente aos botões.
-
----- Demonstração do Projeto
-🎥 Vídeo do Projeto: [https://youtube.com/shorts/tDVmbcrBulU?si=BV_Om_p0s-wlAjkV]
